@@ -103,3 +103,62 @@ span{
 
     transform:translateY(-3px);
 }
+
+/* =========================
+   RESPONSIVE CELULAR
+========================= */
+
+@media(max-width:768px){
+
+    body{
+
+        padding:20px 15px;
+    }
+
+    .container{
+
+        max-width:100%;
+
+        padding:35px 20px;
+
+        border-radius:25px;
+    }
+
+    .profile{
+
+        width:150px;
+        height:150px;
+    }
+
+    h1{
+
+        font-size:1.7rem;
+    }
+
+    span{
+
+        font-size:.95rem;
+    }
+
+    .description{
+
+        font-size:.95rem;
+
+        line-height:1.6;
+
+        margin:20px 0 30px;
+    }
+
+    .links{
+
+        gap:12px;
+    }
+
+    .links a{
+
+        padding:16px;
+
+        font-size:.95rem;
+    }
+
+}
